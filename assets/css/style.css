@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background: #090b1a;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content {
+  background: #1b1938;
+  width: 70vw;
+  height: 50vh;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  top: 25vh;
+  max-width: 70vw;
+  min-width: 70vw;
+  max-height: 50vh;
+  min-height: 50vh;
+}
+
+body h1 .purp {
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=style.css.map */

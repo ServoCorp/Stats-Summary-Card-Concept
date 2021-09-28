@@ -1,0 +1,42 @@
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+//color themes
+// Primary
+$veryDarkBlue: hsl(233, 47%, 7%); //Background
+$darkDesaturatedBlue: hsl(244, 38%, 16%); // card background
+$softViolet: hsl(277, 64%, 61%); // accent
+
+// Neutral
+$white: hsl(0, 0%, 100%); // main heading <h1>
+$transparentWhite: hsla(0, 0%, 100%, 0.75); // main paragraph
+
+
+body {
+    background: $veryDarkBlue;
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+    }
+    .content {
+        background: $darkDesaturatedBlue;
+        width: 70vw;
+        height: 50vh;
+        position: absolute;
+        border-radius: 10px 10px 10px 10px;
+        top: 25vh;
+        //max & min
+        max-width: 70vw;
+        min-width: 70vw;
+        max-height: 50vh;
+        min-height: 50vh;
+    }
+
+    h1 {
+        .purp {
+            color: $softViolet;
+        }
+    }
+}

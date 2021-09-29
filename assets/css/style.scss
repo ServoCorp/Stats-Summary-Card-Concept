@@ -45,6 +45,8 @@ body {
             font-family: 'Inter', sans-serif;
             color: $transparentWhite;
             line-height: 1.7;
+            margin-block-start: 0;
+            margin-block-end: 0;
         }
     }
 
@@ -53,6 +55,7 @@ body {
         display: flex;
         img {
             z-index: -1;
+            border-radius: 0px 10px 10px 0px;
         }
     }
 
@@ -63,6 +66,7 @@ body {
 
     .left {
         background: hsl(244, 38%, 16%);
+        border-radius: 10px 0px 0px 10px;
         .lowerContainer {
             display: flex;
             justify-content: space-between;
@@ -76,6 +80,11 @@ body {
     h1 {
         .purp {
             color: $softViolet;
+        }
+    }
+    .stat {
+        h1 {
+            margin-block-end: 0;
         }
     }
 }

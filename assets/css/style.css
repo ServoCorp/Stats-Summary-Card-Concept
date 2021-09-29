@@ -41,6 +41,10 @@ body .leftContent p {
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.7;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 body .image {
@@ -52,6 +56,7 @@ body .image {
 
 body .image img {
   z-index: -1;
+  border-radius: 0px 10px 10px 0px;
 }
 
 body .lowerStats {
@@ -61,6 +66,7 @@ body .lowerStats {
 
 body .left {
   background: #1b1938;
+  border-radius: 10px 0px 0px 10px;
 }
 
 body .left .lowerContainer {
@@ -74,5 +80,10 @@ body .left .lowerContainer {
 
 body h1 .purp {
   color: #aa5cdb;
+}
+
+body .stat h1 {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 /*# sourceMappingURL=style.css.map */

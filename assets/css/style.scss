@@ -27,11 +27,36 @@ body {
         position: absolute;
         border-radius: 10px 10px 10px 10px;
         top: 25vh;
+        display: flex;
         //max & min
         max-width: 70vw;
         min-width: 70vw;
         max-height: 50vh;
         min-height: 50vh;
+    }
+    .leftContent {
+        padding: 40px 60px 60px 60px;
+        h1 {
+            font-family: 'Inter', sans-serif;
+            color:$white;
+        }
+
+        p {
+            font-family: 'Inter', sans-serif;
+            color: $transparentWhite;
+        }
+    }
+
+    .image {
+        height: 100%;
+        display: flex;
+    }
+
+    .left {
+
+    }
+    .right {
+
     }
 
     h1 {

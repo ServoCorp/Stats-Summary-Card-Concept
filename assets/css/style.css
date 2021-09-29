@@ -13,23 +13,23 @@ body .container {
 }
 
 body .content {
-  background: #1b1938;
-  width: 70vw;
-  height: 50vh;
+  background: #3f0066ad;
+  width: 65vw;
+  height: 53vh;
   position: absolute;
   border-radius: 10px 10px 10px 10px;
   top: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 70vw;
-  min-width: 70vw;
-  max-height: 50vh;
-  min-height: 50vh;
+  max-width: 65vw;
+  min-width: 65vw;
+  max-height: 53vh;
+  min-height: 53vh;
 }
 
 body .leftContent {
-  padding: 40px 60px 60px 60px;
+  padding: 40px 70px 60px 70px;
 }
 
 body .leftContent h1 {
@@ -40,6 +40,7 @@ body .leftContent h1 {
 body .leftContent p {
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
 }
 
 body .image {
@@ -47,6 +48,28 @@ body .image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body .image img {
+  z-index: -1;
+}
+
+body .lowerStats {
+  padding-top: 12vh;
+  font-size: 14px;
+}
+
+body .left {
+  background: #1b1938;
+}
+
+body .left .lowerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body h1 .purp {

@@ -29,7 +29,7 @@ body {
         top: 25vh;
         display: flex;
         //max & min
-        max-width: 65vw;
+        max-width: 85vw;
         min-width: 65vw;
         max-height: 53vh;
         min-height: 53vh;
@@ -60,7 +60,6 @@ body {
     }
 
     .lowerStats {
-        padding-top: 12vh;
         font-size: 14px;
     }
 
@@ -85,6 +84,101 @@ body {
     .stat {
         h1 {
             margin-block-end: 0;
+        }
+    }
+}
+
+//Mobile and Tablet styling.
+
+@media (min-width: 280px) and (max-width: 415px) {
+    body {
+        .content {
+            width: 88vw;
+            border-radius: 10px 10px 10px 10px;
+            position: unset;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            max-width: 88vw;
+            min-width: 88vw;
+            flex-direction: column;
+            top: 3vh;
+        }
+        .left {
+            order: 2;
+            border-radius: 0px 0px 10px 10px;
+            .lowerContainer{
+                flex-direction: column;
+            }
+        }
+        .right {
+            order: 1;
+        }
+        .leftContent {
+            padding: 20px 35px 10px 35px;
+            h1 {
+                font-family: 'Inter', sans-serif;
+                text-align: center;
+                color: white;
+                font-size: 28px;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .lowerStats {
+            padding-top: 0;
+        }
+        .image {
+            img {
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+        }
+    }
+}
+
+@media (min-width: 540px) and (max-width: 1025px) {
+    body {
+        .content {
+            border-radius: 10px 10px 10px 10px;
+            position: absolute;
+            top: 15%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+        }
+        .left {
+            order: 2;
+            border-radius: 0px 0px 10px 10px;
+            .lowerContainer{
+                flex-direction: column;
+            }
+        }
+        .right {
+            order: 1;
+        }
+        .leftContent {
+            padding: 20px 35px 10px 35px;
+            h1 {
+                font-family: 'Inter', sans-serif;
+                text-align: center;
+                color: white;
+                font-size: 28px;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .lowerStats {
+            padding-top: 0;
+        }
+        .image {
+            img {
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
         }
     }
 }

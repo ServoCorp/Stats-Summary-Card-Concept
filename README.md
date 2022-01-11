@@ -1,4 +1,4 @@
-# 3 Column Design Concept with Responsive Design
+# Stats preview page with Responsive Design
 
 This is a stats preview page or componet made with a css preprocessor
 
